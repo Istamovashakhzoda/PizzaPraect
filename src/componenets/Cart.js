@@ -27,8 +27,8 @@ const Cart = ({products, changee}) =>{
      <button className="toggle-btn" onClick={toggleButton}>
       Cart
      </button>
-     <div className={classActive ? "active" : ""}>
-      <div className="shopping-cart">
+     <div id="shoppingcart" className={classActive ? "active" : ""}>
+      <div className="shoppingcart">
         <div className="cartContent">
           <div className="cartList">
             {
