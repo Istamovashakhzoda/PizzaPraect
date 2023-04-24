@@ -94,3 +94,18 @@
 .info p{
   font-size: 20px;
 }
+
+.emptyCart{
+  width: 100%;
+}
+
+.cartItem .carMain{
+flex-grow: 1;
+margin-left: 10px;
+}
+
+.cartItem div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
