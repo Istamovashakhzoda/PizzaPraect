@@ -1,5 +1,5 @@
 import React from "react";
-
+import CardList from "./CardList";
 const Products = ({products, addcart}) =>{
   return(
     <div className="products">
