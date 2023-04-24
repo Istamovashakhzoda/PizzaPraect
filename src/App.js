@@ -49,7 +49,7 @@ function App() {
   return (
     <>
       <div className="header">
-        <img src= {logo} className="brand"/>
+        <img style={{width:"150px"}} src= {logo} className="brand"/>
         <Cart products={cart} changee={changee}/>
       </div>
       <Products products={products} addcart={addcart}/>
