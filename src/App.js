@@ -3,6 +3,7 @@ import Cart from "./componenets/Cart"
 import Products from "./componenets/Products"
 import logo from "./componenets/logo.png"
 import filterList from "./componenets/filterList";
+import "./App.css"
 function App() {
 
   const [products, setProducts] = useState({});
