@@ -4,7 +4,7 @@ import CardItem from "./CardItem";
 const Cart = ({products, changee}) =>{
   // {Shopping kard savatchning ichi}
 
-  const [classActive, toogleClass] = useState(false);
+  const [classActive, toggleClass] = useState(false);
   const [sum, setSum] = useState(0);
 
   const toggleButton =() =>{
@@ -38,7 +38,7 @@ const Cart = ({products, changee}) =>{
                 <img src="https://collabkart.com/img/empty-cart.gif" className="emptyGif"/>
               </div>
               :
-              products.map(products =>{
+              products.map(product =>{
                 return(
                   <>
                   <CardItem

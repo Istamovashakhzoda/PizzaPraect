@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Cart from "./componenets/Cart"
 import Products from "./componenets/Products"
+import logo from "./componenets/logo.png"
 function App() {
 
   const [products, setProducts] = useState({});
