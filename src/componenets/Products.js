@@ -1,9 +1,10 @@
 import React from "react";
 
-const Products = () =>{
+const Products = ({products, addcart}) =>{
   return(
-    <div>
-
+    <div className="products">
+          <h3 className="themetext">Pizza</h3>
+          <CardList products={products} addcart = {addcart} />
     </div>
   )
 }
