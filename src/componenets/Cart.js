@@ -19,7 +19,7 @@ const Cart = ({products, changee}) =>{
    },[products])
 
    const checkout = () =>{
-    alert("Subtotal: $ ${sum.toFixed(2)}");
+    alert(`Subtotal: $ ${sum.toFixed(2)}`);
    }
 
   return(

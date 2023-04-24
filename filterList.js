@@ -1,5 +1,5 @@
-import Products from "./src/componenets/Products";
 import pizza from "./src/pizza.json"
+// import Products from "./src/componenets/Products";
 
 export default function filterList(arr, method) {
   if(method == null) return pizza;
