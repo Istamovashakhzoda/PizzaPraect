@@ -2,10 +2,17 @@ import React, {useState, useEffect} from "react";
 import Cart from "./componenets/Cart"
 import Products from "./componenets/Products"
 import logo from "./componenets/logo.png"
+import filterList from "./componenets/filterList";
 function App() {
 
   const [products, setProducts] = useState({});
   const [cart, setCart] = useState([]);
+    
+   useEffect(() =>{
+    setProducts(filterList([], null));
+    if(JSON.parse(localStorage.getItem("cart")))
+    setCart(JSON.parse(localStorage.getItem("cart")));
+   })
 
   const addcart = (item) =>{
     const productList = [...cart];
