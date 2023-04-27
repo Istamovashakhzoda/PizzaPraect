@@ -10,7 +10,7 @@ const Card = ({data, addcard}) =>{
     <div className="cardBody">
       <h3 className="cardTitle">{data.title}</h3>
       <p className="cardDesc">{data.desc}</p>
-      <p className="cardPrice"><span>{data.price} Sum</span></p>
+      {/* <p className="cardPrice"><span>{data.price} Sum</span></p> */}
       <button className="add-to-card" onClick={() => addcard (data)}>
       <img src={shoppingCart} className="cartIcon"/>
       Заказать
