@@ -1,4 +1,4 @@
-<h1><a href = "https://pizza-praect-d95j5m34a-istamovashakhzoda.vercel.app/">PizzaPraect</a></h1>
+<h1><a href = "https://pizza-praect-k6g2-qel9k5lip-istamovashakhzoda.vercel.app/">PizzaPraect</a></h1>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
